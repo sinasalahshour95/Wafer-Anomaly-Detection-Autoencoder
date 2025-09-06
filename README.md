@@ -1,5 +1,5 @@
 # Wafer Anomaly Detection using Autoencoders
-An implementation of Dense and LSTM-based autoencoders in Python for anomaly detection in semiconductor manufacturing timeseries data.
+An implementation of feedforward and LSTM-based autoencoders in Python for anomaly detection in semiconductor manufacturing timeseries data.
 
 ## Overview
 This project uses deep learning autoencoders to learn the patterns of normal wafer from timeseries sensor data. The model is trained only on normal data to reconstruct it with low error. When an anomalous sample is introduced, the model produces a high reconstruction error, allowing for effective anomaly detection by setting an error threshold.
